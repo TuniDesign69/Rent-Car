@@ -1,0 +1,23 @@
+.infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #181719;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.infos h1 {
+    color: #ffffff;
+    font-size: 26px;
+    font-family: 'FuturaPT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 600;
+}
+.infos p {
+    color: #c2c2c2;
+    font-size: 20px;
+    font-family: 'FuturaPT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    padding-top: 10px;
+}

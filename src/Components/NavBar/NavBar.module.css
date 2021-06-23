@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Nav{
+ 
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1% 5% 1% 5%;
+   
+  
+}
+.Menu{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-around;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'FuturaPT',Arial,sans-serif;
+    align-items: center;
+
+    font-weight: 400;
+}
+li{
+    list-style: none;
+    color: white;
+    
+    
+}
+ ul li :hover{
+    cursor: pointer;
+}
+p{color: white;}
+.Media{
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    justify-content: space-around;
+   align-items: center;
+
+}
+.Contact{
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    justify-content: space-around;
+   align-items: center;
+
+}

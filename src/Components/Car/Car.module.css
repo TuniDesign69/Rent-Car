@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+.car{
+    width: 350px;
+    height: 300px;
+}
+.cars{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  
+ 
+}
+.Details_Car{
+    display: flex;
+    flex-direction: row;
+width: 50%;
+    justify-content: space-around;
+   align-items: center;
+
+}
+ .Details_Car li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.infos{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+   align-items: center;
+   width: 100%;
+}
+.baboucha{height: 150px;
+    display: flex;
+    flex-direction: row;
+width:90%;
+    justify-content: space-between;
+   align-items: center;
+   margin-bottom: 10px;
+}
+.carPrice{
+    display: flex;
+    flex-direction: row;
+
+
+   align-items: center;
+}
